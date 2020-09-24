@@ -2,10 +2,12 @@
 .head1 {
 	text-align: center;
 	font-size: xx-large;
+	font-family: "PingFang SC Light", "PingFang SC Medium", "PingFang SC Regular", "PingFang SC Semibold", "PingFang SC Thin", "PingFang SC Ultralight";
+	font-weight: bolder;
 }
 .head {
 	background-color: rgba(255,255,255,1.00);
-	padding-top: 1%;
+	padding-top: 3px;
 }
 .body {
 	background-color: rgba(244,244,244,1.00);
@@ -57,12 +59,12 @@
 	background-color: rgba(0,0,0,1.00);
 	float: right;
 	clear: right;
-	margin-top: 45px;
+	margin-top: 19px;
 }
 .dibu {
 	position: fixed;
 	padding-bottom: 74px;
-	padding-right: 3%;
+	padding-right: 1%;
 	bottom: 0px;
 	float: right;
 	right: 0px;
@@ -72,6 +74,8 @@
 	color: rgba(134,134,134,1.00);
 	font-size: 15px;
 	letter-spacing: 15px;
+	font-family: "PingFang SC Light", "PingFang SC Medium", "PingFang SC Regular", "PingFang SC Semibold", "PingFang SC Thin", "PingFang SC Ultralight";
+	font-weight: bold;
 }
 .header {
 	background-color: rgba(255,255,255,1.00);
@@ -92,7 +96,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	margin-top: 3%;
+	margin-top: 2.5%;
 	background-color: rgba(252,252,252,1.00);
 }
 .xuzhi {
@@ -119,18 +123,24 @@
 	text-decoration: none;
 	font-weight: bold;
 	border-radius: 100px;
-	margin-top: 5%;
+	margin-top: 3%;
 	font-size: 17px;
+	font-family: "PingFang SC Light", "PingFang SC Medium", "PingFang SC Regular", "PingFang SC Semibold", "PingFang SC Thin", "PingFang SC Ultralight";
 }
 .gqwd:hover {
 	-webkit-box-shadow: 0px 3px 15px rgba(255,234,199,1.00);
 	box-shadow: 0px 3px 15px rgba(255,234,199,1.00);
+	font-family: "PingFang SC Light", "PingFang SC Medium", "PingFang SC Regular", "PingFang SC Semibold", "PingFang SC Thin", "PingFang SC Ultralight";
+	font-weight: bold;
+	width: 150px;
+	text-align: center;
+}
+.yd {
 }
 .bo {
 	background-color: rgba(255,255,255,1.00);
 	height: 120px;
 	width: auto;
-	bottom: 0px;
 	padding-left: 8%;
 	padding-right: 8%;
 	padding-top: 30px;
@@ -162,6 +172,7 @@
 	font-weight: normal;
 	margin-top: 20px;
 	display: inherit;
+	font-family: "PingFang SC Light", "PingFang SC Medium", "PingFang SC Regular", "PingFang SC Semibold", "PingFang SC Thin", "PingFang SC Ultralight";
 }
 .logo {
 	width: 50px;
@@ -170,10 +181,10 @@
 }
 .daohang {
 	background-color: rgba(255,255,255,1.00);
-	padding-top: 0px;
-	z-index: 9;
 	padding-right: 8%;
 	padding-left: 8%;
+	padding-top: 0px;
+	z-index: 9;
 }
 .cd {
 	text-align: right;
@@ -266,6 +277,7 @@
 	padding-bottom: 13px;
 	display: inherit;
 	width: 100px;
+	font-family: "PingFang SC Light", "PingFang SC Medium", "PingFang SC Regular", "PingFang SC Semibold", "PingFang SC Thin", "PingFang SC Ultralight";
 }
 .jiage {
 	font-size: 14px;
@@ -302,9 +314,13 @@
 	background-color: rgba(255,164,0,1.00);
 }
 .qq {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	float: right;
 	clear: right;
 	padding-bottom: 5px;
+}
+.fl {
+	padding-left: 8%;
+	padding-right: 8%;
 }
