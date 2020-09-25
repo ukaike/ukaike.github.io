@@ -6923,7 +6923,6 @@ p {
 	width: 20%;
 }
 .tishi {
-	background-color: rgba(0,0,0,0.80);
 	position: fixed;
 	display: inherit;
 	z-index: 9;
@@ -6934,17 +6933,22 @@ p {
 	right: 0px;
 	border-radius: 10px;
 	float: right;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
+	padding-left: 14%;
+	padding-right: 14%;
 }
 .goumaitishi {
 	color: rgba(255,255,255,1.00);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 15px;
-	display: inherit;
+	display: block;
 	margin-top: -4%;
 	text-align: center;
+	background-color: rgba(0,0,0,0.84);
+	padding-top: 4%;
+	padding-bottom: 4%;
+	border-radius: 10px;
+	margin-bottom: 15%;
 }
 }
