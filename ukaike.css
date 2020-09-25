@@ -145,6 +145,9 @@
 	padding-right: 8%;
 	padding-top: 30px;
 }
+.tishi {
+	display: none;
+}
 .youliann {
 	float: left;
 	font-size: 14px;
