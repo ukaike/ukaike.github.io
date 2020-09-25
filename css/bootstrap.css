@@ -6937,11 +6937,16 @@ p {
 	padding-left: 4%;
 	padding-right: 4%;
 }
+.ren {
+	width: 19%;
+	margin-top: -20%;
+	float: right;
+}
 .goumaitishi {
 	color: rgba(255,255,255,1.00);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 13px;
 	display: block;
 	margin-top: -4%;
 	text-align: center;
