@@ -6916,6 +6916,7 @@ p {
 }
 .dingbugq {
 	margin-right: -4px;
+	visibility: hidden;
 }
 .yulan {
 	display: inline;
@@ -6953,5 +6954,12 @@ p {
 	font-size: 13px;
 	display: inline;
 	border-radius: 10px;
+}
+.dingbugq {
+	margin-right: -4px;
+}
+.logo {
+	margin-left: -10px;
+	visibility: hidden;
 }
 }
