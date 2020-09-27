@@ -6985,14 +6985,14 @@ p {
 	color: rgba(0,0,0,1.00);
 	font-weight: normal;
 	margin-right: 10px;
-	font-size: 13px;
+	font-size: 12px;
 }
 .nav > li {
 	position: relative;
 	display: block;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	font-size: 13px;
+	font-size: 12px;
 	margin-left: -12px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -7002,11 +7002,11 @@ p {
 	border-bottom-color: transparent;
 	clear: none;
 	float: none;
-	font-size: 13px;
+	font-size: 12px;
 }
 .nav-tabs > li > a:hover {
 	border-radius: 100px;
 	border-color: #eee #eee #ddd;
-	font-size: 13px;
+	font-size: 12px;
 }
 }
