@@ -6869,7 +6869,7 @@ button.close {
 }
 .nav-tabs {
 	margin-bottom: 2px;
-	margin-top: 30px;
+	margin-top: 15px;
 	display: inherit;
 	visibility: inherit;
 }
@@ -6975,8 +6975,13 @@ p {
 	position: relative;
 	display: block;
 	border-radius: 100px;
-	padding: 10px 15px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
 	color: rgba(0,0,0,1.00);
+	font-weight: normal;
+	margin-right: 10px;
 }
 .nav > li {
 	position: relative;
