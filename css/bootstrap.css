@@ -4060,6 +4060,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	text-decoration: none;
 	border-radius: 100px;
 	background-color: #eee;
+	font-size: 15px;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4100,10 +4101,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	border-radius: 100px;
 	color: rgba(71,71,71,1.00);
 	font-weight: bolder;
+	font-size: 15px;
 }
 .nav-tabs > li > a:hover {
 	border-radius: 100px;
 	border-color: #eee #eee #ddd;
+	font-size: 15px;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -6982,13 +6985,28 @@ p {
 	color: rgba(0,0,0,1.00);
 	font-weight: normal;
 	margin-right: 10px;
+	font-size: 13px;
 }
 .nav > li {
 	position: relative;
 	display: block;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	font-size: 12px;
+	font-size: 13px;
 	margin-left: -12px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #000000;
+	cursor: default;
+	background-color: #FFDF4E;
+	border-bottom-color: transparent;
+	clear: none;
+	float: none;
+	font-size: 13px;
+}
+.nav-tabs > li > a:hover {
+	border-radius: 100px;
+	border-color: #eee #eee #ddd;
+	font-size: 13px;
 }
 }
