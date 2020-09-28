@@ -6878,6 +6878,7 @@ button.close {
 }
 .head1 {
 	font-size: 25px;
+	font-family: "PingFang SC Regular";
 }
 .gqwd {
 	font-size: 13px;
@@ -6994,6 +6995,7 @@ p {
 	padding-bottom: 0px;
 	font-size: 12px;
 	margin-left: -12px;
+	margin-bottom: 5px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	color: #000000;
@@ -7007,6 +7009,15 @@ p {
 .nav-tabs > li > a:hover {
 	border-radius: 100px;
 	border-color: #eee #eee #ddd;
+	font-size: 12px;
+}
+h3, .h3 {
+	font-size: 15px;
+	margin-top: 59%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.jg {
 	font-size: 12px;
 }
 }
