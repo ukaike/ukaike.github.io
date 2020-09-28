@@ -66,6 +66,19 @@ a:hover {
 	padding-right: 15px;
 	margin-right: 5px;
 }
+.dingbugq:hover {
+	float: right;
+	margin-top: 13px;
+	color: rgba(0,0,0,1.00);
+	border-radius: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 5px;
+	background-color: rgba(255,212,34,1.00);
+	border-color: rgba(255,212,34,1.00);
+}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -6967,6 +6980,11 @@ p {
 .dingbugq {
 	margin-right: -4px;
 	visibility: hidden;
+}
+.dingbugq:hover {
+	margin-right: -4px;
+	visibility: hidden;
+	background-color: rgba(255,164,0,1.00);
 }
 .logo {
 	margin-left: -10px;
