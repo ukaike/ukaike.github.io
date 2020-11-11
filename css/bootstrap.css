@@ -10,7 +10,8 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+	margin: 0;
+	background-color: rgba(237,237,237,1.00);
 }
 article,
 aside,
@@ -26,6 +27,18 @@ nav,
 section,
 summary {
   display: block;
+}
+.daohang {
+	background-color: rgba(255,255,255,1.00);
+	padding-right: 8%;
+	padding-left: 8%;
+	padding-top: 0px;
+	z-index: 9;
+}
+.logo {
+	width: 50px;
+	height: auto;
+	padding-top: 5px;
 }
 audio,
 canvas,
@@ -1351,6 +1364,10 @@ p {
 	text-align: left;
 	display: inherit;
 }
+.qianyan {
+	font-size: 16px;
+	line-height: 30px;
+}
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1649,14 +1666,17 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255,255,255,1.00);
+	left: 0px;
+	right: 0px;
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+	width: auto;
   }
 }
 @media (min-width: 992px) {
@@ -1670,10 +1690,13 @@ pre code {
   }
 }
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	padding-right: 8%;
+	padding-left: 8%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255,255,255,1.00);
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 .row {
 	float: left;
@@ -7039,4 +7062,19 @@ h3, .h3 {
 .jg {
 	font-size: 12px;
 }
+}
+.body {
+	background-color: rgba(246,246,246,1.00);
+}
+.biaoti {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.fwsj {
+	font-size: 20px;
+}
+.zw {
+	font-size: 15px;
+	line-height: 25px;
+	color: rgba(149,149,149,1.00);
 }
